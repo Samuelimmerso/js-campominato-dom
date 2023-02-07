@@ -1,0 +1,79 @@
+/* Reset Css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+body {
+    background-color: brown;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(29, 48, 106);
+    height: 93vh;
+}
+
+.container-top {
+    background-color: white;
+}
+
+
+/* UTILS */
+
+.active {
+    background-color: rgb(90, 166, 90);
+}
+
+.game_over {
+    background-color: rgb(156, 38, 34);
+}
+
+
+/* CLASSES */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(29, 48, 106);
+    border: 2px white solid;
+    cursor: crosshair;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px white solid;
+    color: white;
+}
+
+.easy {
+    width: calc((100%/10));
+    height: calc((100%/10));
+}
+
+.normal {
+    width: calc((100%/9));
+    height: calc((100%/9));
+}
+
+.hard {
+    width: calc((100%/7));
+    height: calc((100%/7));
+}

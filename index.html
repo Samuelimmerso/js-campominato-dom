@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- js -->
+    <script type="text/javascript" src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container-game">
+
+        <nav class="container_top d-flex navbar container-fluid">
+            <a class="navbar-brand" href="#">Campo Minato</a>
+            <h2 class="result"></h2>
+            <div class="play-section d-flex gap-4">
+                <select name="Difficulty" id="difficulty" class="border-0">
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                </select>
+                <button class="btn btn-outline-success" type="button" id="gridgen">PLAY</button>
+            </div>
+        </nav>
+
+        <div class="container_bottom">
+            <div class="grid d-none">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
